@@ -12,6 +12,7 @@ app = Flask(__name__)
 def index():
     return r"服务范例"
 
+
 @app.route('/input', methods=['GET','POST'])  # 添加路由input
 def input():
     try:
